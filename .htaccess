@@ -1,0 +1,2 @@
+# Prioritize index.php as default document
+DirectoryIndex index.php index.html
