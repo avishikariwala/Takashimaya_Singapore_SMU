@@ -19,7 +19,7 @@ include 'header.php';
       <div class="events-hero-container">
         <div class="events-hero-content">
           <span class="events-eyebrow">WHAT'S HAPPENING AT TAKASHIMAYA</span>
-          <h1 class="events-hero-title">Events &amp;<br>Promotions</h1>
+          <h1 class="events-hero-title">Events &amp; What’s On at Takashimaya Singapore</h1>
           <p class="events-hero-subtitle">Immerse yourself in authentic cultural festivals, seasonal gourmets, brand showcases, and exclusive department store privileges.</p>
           <div class="events-hero-actions">
             <a href="#featured-festival" class="btn-events-primary">

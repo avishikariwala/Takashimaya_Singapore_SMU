@@ -153,7 +153,7 @@ include 'header.php';
 </style>
 
 <main class="loyalty-page">
-<section class="loyalty-hero"><div class="eyebrow">Loyalty &amp; Privileges</div><h1>Takashimaya Cards &amp; Prestige</h1><p>Choose how you want to be rewarded — earn Takashimaya Bonus Points with our everyday cards, or explore elevated privileges through the Prestige Programme.</p></section>
+<section class="loyalty-hero"><div class="eyebrow">Loyalty &amp; Privileges</div><h1>Takashimaya Cards &amp; Prestige Loyalty Programme</h1><p>Choose how you want to be rewarded — earn Takashimaya Bonus Points with our everyday cards, or explore elevated privileges through the Prestige Programme.</p></section>
 <div class="switcher-wrap"><div class="switcher" role="tablist"><button class="active" data-panel="cards">Takashimaya Cards</button><button data-panel="prestige">Prestige Card Programme</button></div></div>
 <section class="section panel active" id="cards">
 <div class="intro"><div><div class="eyebrow">Everyday rewards</div><h2>Make every visit more rewarding.</h2><p>Compare four Takashimaya card options at a glance — from eligibility and earning rates to specialty-store rewards and Bonus Point redemption.</p></div><div class="quickfacts"><div class="fact"><b>100 BP = $30</b> Gift Vouchers</div><div class="fact">Redeem at <b>Customer Service, L3</b></div></div></div>

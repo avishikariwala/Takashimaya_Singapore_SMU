@@ -6,9 +6,6 @@
 $page_title = $page_title ?? 'Takashimaya Singapore | Discover Something New';
 $page_desc  = $page_desc  ?? 'Discover brands, dining, events and experiences at Takashimaya Singapore.';
 $current_page = $current_page ?? basename($_SERVER['PHP_SELF'], '.php');
-if (!isset($show_promo_links)) {
-    $show_promo_links = ($current_page === 'final_HP' || $current_page === 'pyv' || $current_page === 'Takashimaya-Plan-Your-Visit-FINAL-v13');
-}
 ?>
 <!doctype html>
 <html lang="en">
@@ -33,11 +30,8 @@ if (!isset($show_promo_links)) {
         <a href="<?php echo ($current_page === 'index' || $current_page === 'final_HP') ? '#about-us' : 'index.php#about-us'; ?>">About Us</a>
         <a href="brands.php" class="<?php echo ($current_page === 'brands') ? 'active' : ''; ?>">Brands</a>
         <a href="dining.php" class="<?php echo ($current_page === 'dining') ? 'active' : ''; ?>">Dining</a>
-        <a href="events.php" class="<?php echo ($current_page === 'events') ? 'active' : ''; ?>">Events</a>
-        <?php if (!empty($show_promo_links)): ?>
-        <a href="<?php echo ($current_page === 'index' || $current_page === 'final_HP') ? '#promotions' : 'index.php#promotions'; ?>">Promotions</a>
-        <?php endif; ?>
-        <a href="Takashimaya-Plan-Your-Visit-FINAL-v13.php" class="<?php echo ($current_page === 'pyv' || $current_page === 'Takashimaya-Plan-Your-Visit-FINAL-v13') ? 'active' : ''; ?>">Plan Your Visit</a>
+        <a href="events.php" class="<?php echo ($current_page === 'events') ? 'active' : ''; ?>">Events and Promotions</a>
+        <a href="Takashimaya-Plan-Your-Visit-FINAL-v15.php" class="<?php echo ($current_page === 'pyv' || $current_page === 'Takashimaya-Plan-Your-Visit-FINAL-v15') ? 'active' : ''; ?>">Plan Your Visit</a>
         <a href="Takashimaya-Loyalty-Interactive-FINAL.php" class="<?php echo ($current_page === 'loyalty' || $current_page === 'Takashimaya-Loyalty-Interactive-FINAL') ? 'active' : ''; ?>">Loyalty</a>
         <a href="https://www.takashimaya.com.sg" target="_blank" rel="noopener noreferrer" class="nav-shop-link" title="Shop online at Takashimaya Singapore">Shop with Us ↗</a>
       </nav>

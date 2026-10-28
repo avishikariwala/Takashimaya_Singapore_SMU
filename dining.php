@@ -19,7 +19,7 @@ include 'header.php';
       <div class="dining-hero-container">
         <div class="dining-hero-content">
           <span class="dining-eyebrow">DISCOVER &amp; BE INSPIRED</span>
-          <h1 class="dining-hero-title">Dining, Events<br>and More at<br>Takashimaya</h1>
+          <h1 class="dining-hero-title">Restaurants &amp; Dining at Takashimaya Singapore</h1>
           <p class="dining-hero-subtitle">Exceptional dining, seasonal discoveries, curated stories and unique experiences &mdash; all in one place.</p>
           <div class="dining-hero-actions">
             <a href="#dining-highlights" class="btn-dining-primary">

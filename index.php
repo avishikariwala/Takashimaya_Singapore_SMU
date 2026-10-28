@@ -72,7 +72,7 @@ include 'header.php';
       <div class="section-heading">
         <div>
           <p class="eyebrow">A little something extra</p>
-          <h2>Promotions &amp; Highlights</h2>
+          <h2>Takashimaya Singapore Promotions &amp; Offers</h2>
           <p>Find a new favourite, enjoy seasonal discoveries and make more of your next visit.</p>
         </div>
         <a class="view-all" href="pyv.php">Plan a Visit <span>→</span></a>
